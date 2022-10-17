@@ -77,12 +77,12 @@ WSGI_APPLICATION = 'wastebackend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'auth', 
-        'USER': 'admin', 
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'waste', 
+        'USER': 'root', 
         'PASSWORD': 'everest1024',
         'HOST': '127.0.0.1', 
-        'PORT': '5432',
+        'PORT': '3306',
     }
 }
 
